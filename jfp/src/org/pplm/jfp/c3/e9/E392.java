@@ -1,11 +1,11 @@
-package com.piao.jfp.c3.e9;
+package org.pplm.jfp.c3.e9;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.piao.jfp.base.Artist;
+import org.pplm.jfp.base.Artist;
 
 public class E392 {
 

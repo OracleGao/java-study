@@ -1,4 +1,4 @@
-package com.piao.jfp.c3.e9;
+package org.pplm.jfp.c3.e9;
 
 public class E396 {
 	public static long lowerCount(String string) {

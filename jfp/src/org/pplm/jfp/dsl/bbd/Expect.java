@@ -1,4 +1,4 @@
-package com.piao.jfp.dsl.bbd;
+package org.pplm.jfp.dsl.bbd;
 
 public class Expect {
 	public BoundExpectation that(Object value) {

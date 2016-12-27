@@ -1,4 +1,4 @@
-package com.piao.jfp.c3.e10;
+package org.pplm.jfp.c3.e10;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.piao.jfp.utils.Utils;
+import org.pplm.jfp.utils.Utils;
 
 public class E3101 {
 	public static <T, R> Stream<R> Map(Stream<T> stream, Function<T, R> function) {

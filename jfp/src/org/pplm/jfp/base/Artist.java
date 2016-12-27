@@ -1,9 +1,9 @@
-package com.piao.jfp.base;
+package org.pplm.jfp.base;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.piao.jfp.utils.Utils;
+import org.pplm.jfp.utils.Utils;
 
 public class Artist {
 	private String name;

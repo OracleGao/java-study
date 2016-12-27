@@ -1,9 +1,9 @@
-package com.piao.jfp.c4.e12;
+package org.pplm.jfp.c4.e12;
 
 import java.util.stream.Stream;
 
-import com.piao.jfp.base.Album;
-import com.piao.jfp.base.Artist;
+import org.pplm.jfp.base.Album;
+import org.pplm.jfp.base.Artist;
 
 public class E4121 {
 	static interface Performance {

@@ -1,8 +1,8 @@
-package com.piao.jfp.dsl.bbd;
+package org.pplm.jfp.dsl.bbd;
+
+import static org.pplm.jfp.dsl.bbd.Description.*;
 
 import java.util.Stack;
-
-import static com.piao.jfp.dsl.bbd.Description.*;
 
 public class Main {
 	

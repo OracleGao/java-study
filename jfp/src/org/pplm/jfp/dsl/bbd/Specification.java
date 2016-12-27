@@ -1,4 +1,4 @@
-package com.piao.jfp.dsl.bbd;
+package org.pplm.jfp.dsl.bbd;
 
 public interface Specification {
 	public void specifyBehaviro(Expect expect);

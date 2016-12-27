@@ -1,10 +1,10 @@
-package com.piao.jfp.base;
+package org.pplm.jfp.base;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import com.piao.jfp.utils.Utils;
+import org.pplm.jfp.utils.Utils;
 
 public class Album implements Performance {
 	private String name;
