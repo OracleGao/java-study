@@ -14,7 +14,7 @@ import org.junit.Test;
 public class AuthenticationStrategyTest {
 	@Test
 	public void authenticationStrategyTest() {
-		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:authenticationStrategy.ini");
+		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:authentication/authenticationStrategy.ini");
 		SecurityManager securityManager = factory.getInstance();
 		SecurityUtils.setSecurityManager(securityManager);
 		Subject subject = SecurityUtils.getSubject();

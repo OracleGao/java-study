@@ -20,7 +20,7 @@ public class LogInOutTest {
 	
 	@Test
 	public void loginoutTest() {
-		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:loginout.ini");
+		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:authentication/loginout.ini");
 		SecurityManager securityManager = factory.getInstance();
 		SecurityUtils.setSecurityManager(securityManager);
 		Subject subject = SecurityUtils.getSubject();

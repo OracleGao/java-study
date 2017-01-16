@@ -15,7 +15,7 @@ public class MyRealmTest {
 	
 	@Test
 	public void myRealmTest() {
-		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:myRealm.ini");
+		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:authentication/myRealm.ini");
 		SecurityManager securityManager = factory.getInstance();
 		SecurityUtils.setSecurityManager(securityManager);
 		Subject subject = SecurityUtils.getSubject();

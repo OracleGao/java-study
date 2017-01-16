@@ -21,7 +21,7 @@ public class JdbcRealmTest {
 	
 	@Test
 	public void jdbcRealmTest() {
-		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:jdbcRealm.ini");
+		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:authentication/jdbcRealm.ini");
 		SecurityManager securityManager = factory.getInstance();
 		SecurityUtils.setSecurityManager(securityManager);
 		Subject subject = SecurityUtils.getSubject();
