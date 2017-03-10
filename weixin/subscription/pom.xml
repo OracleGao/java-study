@@ -12,6 +12,7 @@
 	<groupId>org.pplm.study.weixin</groupId>
 	<artifactId>subscription</artifactId>
 	<version>1.0.0</version>
+	<packaging>war</packaging>
 
 	<dependencies>
 		<dependency>
