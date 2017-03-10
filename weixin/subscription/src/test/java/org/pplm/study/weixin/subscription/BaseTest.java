@@ -1,5 +1,6 @@
 package org.pplm.study.weixin.subscription;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,5 +15,8 @@ public class BaseTest {
 
 	@Autowired
 	protected TestRestTemplate restTemplate;
+	
+	@Test
+	public void empty() {}
 	
 }
