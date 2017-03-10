@@ -28,7 +28,7 @@ public class ValidationHandlerTest extends BaseTest {
 		String plaintext = Stream.of(validationConfig.getToken(), timestamp, nonce).sorted()
 				.collect(Collectors.joining());
 		String signature = CipherUtils.hexDigest(validationConfig.getCipher(), plaintext, validationConfig.getEncoding());
-		String url = "/validations?signature=" + signature + "&timestamp=" + timestamp + "&nonce=" + nonce + "&echostr=" + echostr;
+		String url = "/?signature=" + signature + "&timestamp=" + timestamp + "&nonce=" + nonce + "&echostr=" + echostr;
 		Assert.assertEquals(echostr, restTemplate.getForObject(url, String.class));
 	}
 	
