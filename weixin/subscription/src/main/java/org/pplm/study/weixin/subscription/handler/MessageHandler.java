@@ -17,7 +17,7 @@ public class MessageHandler {
 	@Autowired
 	private MessageService messageService;
 	
-	@RequestMapping(method = RequestMethod.POST, consumes= MediaType.APPLICATION_XML_VALUE, produces = MediaType.APPLICATION_XML_VALUE)
+	@RequestMapping(method = RequestMethod.POST, consumes =MediaType.TEXT_XML_VALUE , produces = MediaType.TEXT_XML_VALUE)
 	public MessageResponseBean onGetReceiveMessage(@RequestBody MessageRequestBean messageRequestBean) {
 		return messageService.processMessage(messageRequestBean);
 	}
